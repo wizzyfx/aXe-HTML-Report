@@ -6,7 +6,9 @@ A bookmarklet for generating and downloading aXe test results in HTML format.
 
 Create a new bookmark with the following URL:
 
-```javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://rawgit.com/wizzyfx/aXeHTMLReport/master/dist/axe-report.min.js';})();```
+```
+javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://rawgit.com/wizzyfx/aXeHTMLReport/master/dist/axe-report.min.js';})();
+```
 
 [How to Install a Bookmarklet](https://mreidsma.github.io/bookmarklets/installing.html)
 

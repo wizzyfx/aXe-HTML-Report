@@ -1,0 +1,29 @@
+{
+  "name": "axehtmlreport",
+  "version": "1.0.0",
+  "description": "aXe HTML Report Generator",
+  "main": "axe-report.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizzyfx/aXeHTMLReport.git"
+  },
+  "keywords": [
+    "a11y",
+    "accessibility"
+  ],
+  "author": "Ugurcan K.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizzyfx/aXeHTMLReport/issues"
+  },
+  "homepage": "https://github.com/wizzyfx/aXeHTMLReport#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.2.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

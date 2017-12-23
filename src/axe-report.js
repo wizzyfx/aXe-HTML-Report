@@ -164,8 +164,8 @@ var aXeReport = (function () {
         document.body.removeChild(element);
     }
 
-    getResource('https://cdnjs.cloudflare.com/ajax/libs/axe-core/2.6.0/axe.min.js', function () {
-        getResource('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js', function () {
+    getResource('https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js', function () {
+        getResource('https://cdnjs.cloudflare.com/ajax/libs/axe-core/2.6.0/axe.min.js', function () {
             main();
         });
     });
